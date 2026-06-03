@@ -1,5 +1,15 @@
 # phdaily-obsidian-skill
 
+两个给博士生用的 Claude Code skill，配合 Obsidian 做每日科研记录。
+
+**`phd-log`** — 每天打开 Claude Code 时自动弹出三个问题：今天读了哪些文献、做了哪些工作、有哪些新想法。回答完之后自动生成记录存进 Obsidian 的每日笔记，不需要自己手动写。
+
+**`obsidian-add-link`** — 用 Obsidian Clipper 剪了一篇网页或论文之后，告诉 Claude「把这篇加到今日文献」，它会自动找到那个文件、生成正确的 wikilink 写进今天的日记。（解决了 Obsidian Clipper 保存的文件名用弯引号、手动写链接容易指向错误文件的问题。）
+
+适合用 Obsidian 管理科研笔记、又懒得每天手动记录的博士生。
+
+---
+
 Two Claude Code skills for PhD students who use Obsidian as a daily research journal.
 
 ## Skills
